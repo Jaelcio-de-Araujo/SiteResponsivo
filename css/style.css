@@ -9,8 +9,8 @@
     padding: 0px;
 }
 #topo-header{
-    background:#410498;
-    background: #410498;
+    background:#000066;
+    background: #000066;
     height: 80px;
 }
 #logo img{
@@ -35,11 +35,11 @@ heading h3{
     font-family: 'Oswald', sans-serif;
 }
 #btn_busca{
-    background-color: #5b18b9 !important;
+    background-color: #000066 !important;
     color: white;
 }
 .nav-link{
-    color: #5b18b9 !important;
+    color: #000066 !important;
 }
 
 
@@ -141,14 +141,10 @@ ul, ol {
 
 /* Cel*/
 @media (max-width: 576px) { 
-  body{
-    background-color: rgb(128, 128, 128) !important;
-  }
   
-
     #topo-header{
-        background:#410498;
-        background: #410498;
+        background:#000066;
+        background: #000066;
         height: auto;
         padding-bottom: 10px;
       }
