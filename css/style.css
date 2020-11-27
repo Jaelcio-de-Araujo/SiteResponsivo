@@ -32,7 +32,7 @@ heading h3{
     text-align: right;
     padding-top: 20px;
     color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 #btn_busca{
     background-color: #000066 !important;
@@ -137,8 +137,6 @@ ul, ol {
   transition: .22s ease;
 }
 
-
-
 /* Cel*/
 @media (max-width: 576px) { 
   
@@ -209,13 +207,4 @@ ul, ol {
         z-index: 1;
       }
 
-}
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-  }
-  header video {
-    display: none;
-  }
 }
