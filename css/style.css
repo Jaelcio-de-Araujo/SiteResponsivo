@@ -1,5 +1,5 @@
 *body{
-  background-color: rgb(104, 35, 35) !important;
+  background-color: rgb(221, 221, 221) !important;
 }
 
 /* Configuração do Topo*/
@@ -30,7 +30,7 @@
 }
 heading h3{
     text-align: right;
-    padding-top: 16px;
+    padding-top: 20px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -41,13 +41,6 @@ heading h3{
 .nav-link{
     color: #000066 !important;
 }
-
-#separador{
-   background-color:#4a6fff ;
-   height: 200px;
-
-}
-
 
 
 /*  Video header  */
@@ -92,6 +85,14 @@ header .overlay {
   z-index: 1;
 }
 
+#menu_li a:hover{
+  background-color: #ececec;
+  font-weight: bold;
+  border-bottom: solid 5px #000066;
+  padding-bottom: 5px;
+
+}
+
 /*Footer*/
 
 .context-dark, .bg-gray-dark, .bg-primary {
@@ -132,6 +133,7 @@ ul, ol {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .nav-list li a:before {
+  content: "\f14f";
   font: 400 21px/1 "Material Design Icons";
   color: #4d6de6;
   display: inline-block;
@@ -141,27 +143,10 @@ ul, ol {
   opacity: 0;
   visibility: hidden;
   transition: .22s ease;
-
-}
-
-
-    ul.menu li a{
-    display: block;
-    padding: 5px auto;
-    color: #fff;
-    text-decoration: none;
-    }
-    ul.menu li a:hover, ul.menu li:hover{
-    color: #fff;
-    background:  #dadada;
-    border-top-color:  #dadada!important;
-    border-left-color:  #dadada;
-    text-decoration: underline;
-    }
 }
 
 /* Cel*/
-@media (max-width: 500px) { 
+@media (max-width: 576px) { 
   
     #topo-header{
         background:#000066;
