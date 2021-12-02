@@ -8,6 +8,7 @@ O site pode se adptado para todos fins, voce pode atualizar , mudar o logo , enf
 * Html
 * CSS
 * JavaScrip
+* PHP
 
 
 
